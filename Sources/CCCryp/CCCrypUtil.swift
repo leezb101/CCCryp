@@ -19,7 +19,7 @@
 import Foundation
 import CryptoSwift
 
-class CCCrypUtil: NSObject {
+public class CCCrypUtil: NSObject {
     //AES ECB encode
     public static func Endcode_AES_ECB(strToEncode:String,key:String) -> String {
         // 从String 转成data
