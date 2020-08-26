@@ -16,7 +16,7 @@
  * 
  * ------------------------------------------------------------------
  */
-
+import Foundation
 import CryptoSwift
 
 class CCCrypUtil: NSObject {
